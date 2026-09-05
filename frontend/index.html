@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>USB Forensics Investigation</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand"><div class="brand-mark">UF</div><div><b>USB Forensics</b><span>Investigation System</span></div></div>
+  <button class="nav active" data-view="dashboard">Dashboard</button>
+  <button class="nav" data-view="timeline">Timeline</button>
+  <button class="nav" data-view="findings">Findings</button>
+  <button class="nav" data-view="report">Report</button>
+  <div class="side-note"><b>Forensic Console</b><span>Windows USB evidence & insider-threat analysis</span></div>
+</aside>
+<main class="main">
+<header class="topbar">
+  <div><h1 id="pageTitle">Investigation Dashboard</h1><p id="subtitle">USB device forensic monitoring</p></div>
+  <button id="scanBtn" class="primary">▶ Start Investigation</button>
+</header>
+<div id="message" class="message hidden"></div>
+<section id="content"></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
